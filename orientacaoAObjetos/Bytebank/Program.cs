@@ -6,30 +6,17 @@ class teste
     static void Main(string[] args)
     {
 
-        ContaCorrente conta1 = new ContaCorrente();
-        ContaCorrente conta2 = new ContaCorrente();
+        Titular victor = new Titular("José Victor", "051.064.564-90", "Tester");
+        Titular vieira = new Titular("Vieira Santos", "561.562.266-10", "Programer");
 
-        conta1.setTitular("José Victor S. Vieira");
-        conta1.setConta("10151-5");
-        conta1.setAgencia(15);
-        conta1.setNomeDaAgencia("Angencia Prime");
-        conta1.deposita(330);
+        ContaCorrente cc = new ContaCorrente(victor, "10053-5", 43, "Prime Agencia");
+        ContaCorrente cc2 = new ContaCorrente(vieira, "4469-8", 56, "Primeira Money");
 
-        conta2.setTitular("Vieira Santos V. José");
-        conta2.setConta("51510-1");
-        conta2.setAgencia(51);
-        conta2.setNomeDaAgencia("Prime Agencia");
-        conta2.deposita(65);
-        conta2.saca(62.50);
 
-        Console.WriteLine("SALDO APÓS TRANFERENCIA: ");
-        conta1.transfere(conta2, 304.42);
+        Console.WriteLine(cc.ToString());
+        Console.WriteLine("=================================");
+        Console.WriteLine(cc2.ToString());
 
-        Console.WriteLine("SALDO CONTA 1\t: " + conta1.getSaldo());
-        Console.WriteLine("SALDO CONTA 2\t: " + conta2.getSaldo());
-        Console.WriteLine("=====================================");
-        Console.WriteLine(conta1.ToString());
-        Console.WriteLine(conta2.ToString());
 
     }
 

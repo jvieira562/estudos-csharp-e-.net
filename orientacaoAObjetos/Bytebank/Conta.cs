@@ -2,17 +2,17 @@
 {
     internal class Conta
     {
-        private string titular;
+        private Titular titular;
         private string conta;
         private int agencia;
         private string nomeDaAngencia;
         private double saldo;
     
-        public string getTitular()
+        public Titular getTitular()
         {
             return titular;
         }
-        public void setTitular(string titular)
+        public void setTitular(Titular titular)
         {
             this.titular = titular;
         }
@@ -106,7 +106,7 @@
 
         public override string ToString()
         {
-            return "\nTITULAR\t\t: " + titular + "\nCONTA\t\t: " + conta + "\nAGENCIA\t\t: " + agencia + "\nNOME_AGENCIA\t: " + nomeDaAngencia;
+            return titular + "\nCONTA\t\t: " + conta + "\nAGENCIA\t\t: " + agencia + "\nNOME_AGENCIA\t: " + nomeDaAngencia;
         }
     }
 }
