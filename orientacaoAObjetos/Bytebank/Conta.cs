@@ -5,9 +5,16 @@
         private Titular titular;
         private string conta;
         private int agencia;
-        private string nomeDaAngencia;
+        private string nomeDaAgencia;
         private double saldo;
-    
+
+        public Conta(Titular titular, string conta, int agencia, string nomeDaAgencia)
+        {
+            this.titular = titular;
+            this.conta = conta;
+            this.agencia = agencia;
+            this.nomeDaAgencia = nomeDaAgencia;
+        }
         public Titular getTitular()
         {
             return titular;
@@ -34,11 +41,11 @@
         }
         public string getNomeDaAgencia()
         {
-            return nomeDaAngencia;
+            return nomeDaAgencia;
         }
         public void setNomeDaAgencia(string nomeDaAgencia)
         {
-            this.nomeDaAngencia = nomeDaAgencia;
+            this.nomeDaAgencia = nomeDaAgencia;
         }
         public double getSaldo()
         {
@@ -106,7 +113,7 @@
 
         public override string ToString()
         {
-            return titular + "\nCONTA\t\t: " + conta + "\nAGENCIA\t\t: " + agencia + "\nNOME_AGENCIA\t: " + nomeDaAngencia;
+            return titular + "\nCONTA\t\t: " + conta + "\nAGENCIA\t\t: " + agencia + "\nNOME_AGENCIA\t: " + nomeDaAgencia;
         }
     }
 }

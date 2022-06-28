@@ -12,10 +12,17 @@ class teste
         ContaCorrente cc = new ContaCorrente(victor, "10053-5", 43, "Prime Agencia");
         ContaCorrente cc2 = new ContaCorrente(vieira, "4469-8", 56, "Primeira Money");
 
+        cc.deposita(50.70);
+        cc2.deposita(32);
+        
 
         Console.WriteLine(cc.ToString());
         Console.WriteLine("=================================");
         Console.WriteLine(cc2.ToString());
+        Console.WriteLine("=================================");
+        Console.WriteLine("CC GETSALDO\t: $ " + cc.getSaldo());
+        Console.WriteLine("CC2 GETSALDO\t: $ " + cc2.getSaldo());
+
 
 
     }
