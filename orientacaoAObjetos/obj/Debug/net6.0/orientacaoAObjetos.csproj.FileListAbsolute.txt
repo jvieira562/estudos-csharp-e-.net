@@ -1,0 +1,15 @@
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\bin\Debug\net6.0\orientacaoAObjetos.exe
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\bin\Debug\net6.0\orientacaoAObjetos.deps.json
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\bin\Debug\net6.0\orientacaoAObjetos.runtimeconfig.json
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\bin\Debug\net6.0\orientacaoAObjetos.dll
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\bin\Debug\net6.0\orientacaoAObjetos.pdb
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\obj\Debug\net6.0\orientacaoAObjetos.csproj.AssemblyReference.cache
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\obj\Debug\net6.0\orientacaoAObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\obj\Debug\net6.0\orientacaoAObjetos.AssemblyInfoInputs.cache
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\obj\Debug\net6.0\orientacaoAObjetos.AssemblyInfo.cs
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\obj\Debug\net6.0\orientacaoAObjetos.csproj.CoreCompileInputs.cache
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\obj\Debug\net6.0\orientacaoAObjetos.dll
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\obj\Debug\net6.0\refint\orientacaoAObjetos.dll
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\obj\Debug\net6.0\orientacaoAObjetos.pdb
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\obj\Debug\net6.0\orientacaoAObjetos.genruntimeconfig.cache
+C:\Users\jvieira\Documents\projetos-csharp\CSharp e Orientação a Objetos\orientacaoAObjetos\obj\Debug\net6.0\ref\orientacaoAObjetos.dll
