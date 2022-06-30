@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace orientacaoAObjetos.Bytebank
+namespace orientacaoAObjetos.Bytebank.Contas
 {
     internal class ContaCorrente : Conta
     {

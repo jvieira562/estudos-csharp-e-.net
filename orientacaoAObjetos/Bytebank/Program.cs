@@ -1,4 +1,5 @@
-﻿using orientacaoAObjetos.Bytebank.Funcionarios;
+﻿using orientacaoAObjetos.Bytebank.Contas;
+using orientacaoAObjetos.Bytebank.Funcionarios;
 using orientacaoAObjetos.Bytebank.Utilitario;
 
 class teste
@@ -6,7 +7,6 @@ class teste
 
     static void Main(string[] args)
     {
-
         Funcionario victor = new Funcionario("Victor Vieira", "043.435.435-98", 2000);
         Funcionario vieira = new Diretor("Vieira Victor", "343.754.543-87", 3000);
         GerenciadorDeBonificacoes gerenciador = new GerenciadorDeBonificacoes();
@@ -15,9 +15,10 @@ class teste
         gerenciador.registrar(victor);
         gerenciador.registrar(vieira);
         Console.WriteLine("TOTAL DE BONIFICACOES: " + gerenciador.getBonificacao());
+        Console.WriteLine("QUANTIDADE DE FUNCIONARIOS: " + Funcionario.getQuantidadeDeFuncionarios());
 
-
-
+        Console.WriteLine("ANTIGO SALARIO VICTOR: " + victor.getSalario());
+        victor.aumentarSalario();
+        Console.WriteLine("NOVO SALARIO VICTOR: " + victor.getSalario());
     }
-
 }

@@ -16,5 +16,9 @@ namespace orientacaoAObjetos.Bytebank.Funcionarios
         {
             return this.Salario + base.getBonificacao();
         }
+        public override void aumentarSalario()
+        {
+            this.Salario *= 1.15;
+        }
     }
 }

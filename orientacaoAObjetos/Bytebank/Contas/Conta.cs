@@ -1,4 +1,4 @@
-﻿namespace orientacaoAObjetos.Bytebank
+﻿namespace orientacaoAObjetos.Bytebank.Contas
 {
     internal class Conta
     {
@@ -110,8 +110,6 @@
             }
 
         }
-
-
 
         public override string ToString()
         {
