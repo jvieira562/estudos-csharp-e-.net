@@ -1,4 +1,5 @@
-﻿using orientacaoAObjetos.Bytebank;
+﻿using orientacaoAObjetos.Bytebank.Funcionarios;
+using orientacaoAObjetos.Bytebank.Utilitario;
 
 class teste
 {
@@ -6,22 +7,14 @@ class teste
     static void Main(string[] args)
     {
 
-        Titular victor = new Titular("José Victor", "051.064.564-90", "Tester");
-        Titular vieira = new Titular("Vieira Santos", "561.562.266-10", "Programer");
-
-        ContaCorrente cc = new ContaCorrente(victor, "10053-5", 43, "Prime Agencia");
-        ContaCorrente cc2 = new ContaCorrente(vieira, "4469-8", 56, "Primeira Money");
-
-        cc.deposita(50.70);
-        cc2.deposita(32);
-        
-
-        Console.WriteLine(cc.ToString());
-        Console.WriteLine("=================================");
-        Console.WriteLine(cc2.ToString());
-        Console.WriteLine("=================================");
-        Console.WriteLine("CC GETSALDO\t: $ " + cc.getSaldo());
-        Console.WriteLine("CC2 GETSALDO\t: $ " + cc2.getSaldo());
+        Funcionario victor = new Funcionario("Victor Vieira", "043.435.435-98", 2000);
+        Funcionario vieira = new Diretor("Vieira Victor", "343.754.543-87", 3000);
+        GerenciadorDeBonificacoes gerenciador = new GerenciadorDeBonificacoes();
+        Console.WriteLine("VICTOR: " + victor.getBonificacao());
+        Console.WriteLine("VIEIRA: " + vieira.getBonificacao());
+        gerenciador.registrar(victor);
+        gerenciador.registrar(vieira);
+        Console.WriteLine("TOTAL DE BONIFICACOES: " + gerenciador.getBonificacao());
 
 
 

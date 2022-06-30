@@ -60,10 +60,10 @@
             }
             else
             {
-                Console.WriteLine("FOI DEPOSITADO O VALOR DE $ " + valor + " NA CONTA $ " + this.conta);
-                Console.WriteLine("\nSALDO ANTIGO\t: $ " + (saldo));
-                this.saldo += valor;
-                Console.WriteLine("SALDO ATUAL\t: $ " + (saldo));
+                Console.WriteLine("FOI DEPOSITADO O VALOR DE $ " + valor + " NA CONTA $ " + conta);
+                Console.WriteLine("\nSALDO ANTIGO\t: $ " + saldo);
+                saldo += valor;
+                Console.WriteLine("SALDO ATUAL\t: $ " + saldo);
                 return true;
             }
 
@@ -95,20 +95,22 @@
             {
                 Console.WriteLine("SALDO INSUFUCIENTE! " + saldo);
                 return false;
-            }   else if (valor <= 0)
+            }
+            else if (valor <= 0)
             {
-                Console.WriteLine("O VALOR $ " + valor +" é INVALIDO!");
+                Console.WriteLine("O VALOR $ " + valor + " é INVALIDO!");
                 return false;
-            }   else
+            }
+            else
             {
                 saca(valor);
                 conta.deposita(valor);
                 Console.WriteLine("FOI TRANSFERIDO UM VALOR DE $ " + valor + " DA CONTA " + this.conta + " PARA CONTA " + conta.getConta());
                 return true;
             }
-            
+
         }
-    
+
 
 
         public override string ToString()

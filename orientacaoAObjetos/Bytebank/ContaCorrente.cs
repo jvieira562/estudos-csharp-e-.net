@@ -10,7 +10,7 @@ namespace orientacaoAObjetos.Bytebank
     {
         const double taxa = 0.5;
 
-        public ContaCorrente(Titular titular, string conta, int agencia, string nomeDaAgencia) : 
+        public ContaCorrente(Titular titular, string conta, int agencia, string nomeDaAgencia) :
         base(titular, conta, agencia, nomeDaAgencia)
         {
         }

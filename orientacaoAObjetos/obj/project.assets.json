@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jvieira\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\conta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jvieira\\Documents\\projetos-csharp\\CSharp e Orientação a Objetos\\orientacaoAObjetos\\orientacaoAObjetos.csproj",
+      "projectUniqueName": "C:\\Users\\conta\\Documents\\projetos\\cSharp\\estudos-csharp-e-dotnet\\orientacaoAObjetos\\orientacaoAObjetos.csproj",
       "projectName": "orientacaoAObjetos",
-      "projectPath": "C:\\Users\\jvieira\\Documents\\projetos-csharp\\CSharp e Orientação a Objetos\\orientacaoAObjetos\\orientacaoAObjetos.csproj",
-      "packagesPath": "C:\\Users\\jvieira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jvieira\\Documents\\projetos-csharp\\CSharp e Orientação a Objetos\\orientacaoAObjetos\\obj\\",
+      "projectPath": "C:\\Users\\conta\\Documents\\projetos\\cSharp\\estudos-csharp-e-dotnet\\orientacaoAObjetos\\orientacaoAObjetos.csproj",
+      "packagesPath": "C:\\Users\\conta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\conta\\Documents\\projetos\\cSharp\\estudos-csharp-e-dotnet\\orientacaoAObjetos\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jvieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\conta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

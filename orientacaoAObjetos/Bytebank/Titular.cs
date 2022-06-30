@@ -13,22 +13,22 @@ namespace orientacaoAObjetos.Bytebank
         private string cpf;
         private string profissao;
 
-       public Titular(string nome, string cpf, string profissao)
+        public Titular(string nome, string cpf, string profissao)
         {
-            this.titular = nome;
+            titular = nome;
             this.cpf = cpf;
             this.profissao = profissao;
         }
 
         public string getNome()
         {
-            return this.titular;
+            return titular;
         }
         public void setNome(string nome)
         {
-            this.titular = nome;
+            titular = nome;
         }
-        public String getCpf()
+        public string getCpf()
         {
             return cpf;
         }
@@ -40,9 +40,9 @@ namespace orientacaoAObjetos.Bytebank
         {
             return profissao;
         }
-        public void setProfissao() 
+        public void setProfissao()
         {
-            this.profissao = profissao;
+            profissao = profissao;
         }
 
         public override string ToString()
