@@ -1,0 +1,25 @@
+﻿@page
+@model RazorApp.Pages.IndexModel
+
+@{
+    Layout = "Shared/_Layout";
+}
+<table>
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Price</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.Categories)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Title</td>
+                <td>@item.Price.ToString("c")</td>
+            </tr>
+        }
+    </tbody>
+</table>
