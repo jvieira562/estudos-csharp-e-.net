@@ -1,0 +1,24 @@
+﻿@page "~/Categorias/{skip?}/{take?}"
+@model RazorApp.Pages.CategoriesModel
+@{
+    ViewData["Title"] = "Categorias";
+}
+<table>
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Price</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.CategoriesList)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Title</td>
+                <td>@item.Price.ToString("c")</td>
+            </tr>
+        }
+    </tbody>
+</table>

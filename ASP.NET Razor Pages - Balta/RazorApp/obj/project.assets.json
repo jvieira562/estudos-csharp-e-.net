@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\conta\\.nuget\\packages\\": {}
+    "C:\\Users\\jvieira\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\Cursos\\ASP.NET Razor Pages - Balta\\RazorApp\\RazorApp.csproj",
+      "projectUniqueName": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\RazorApp.csproj",
       "projectName": "RazorApp",
-      "projectPath": "C:\\dev\\Cursos\\ASP.NET Razor Pages - Balta\\RazorApp\\RazorApp.csproj",
-      "packagesPath": "C:\\Users\\conta\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\Cursos\\ASP.NET Razor Pages - Balta\\RazorApp\\obj\\",
+      "projectPath": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\RazorApp.csproj",
+      "packagesPath": "C:\\Users\\jvieira\\.nuget\\packages\\",
+      "outputPath": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\conta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jvieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

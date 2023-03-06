@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w1yj3ph3WMXJtzRCDtSdquxRdBv1pyYNphJ+4XnfwTY=",
+  "Hash": "5zM/XkeoKTNSd8ZX/YjBEY4Z8QndtZJAMCGJ0FA67HI=",
   "Source": "RazorApp",
   "BasePath": "_content/RazorApp",
   "Mode": "Default",
@@ -10,10 +10,79 @@
     {
       "Name": "RazorApp\\wwwroot",
       "Source": "RazorApp",
-      "ContentRoot": "C:\\dev\\Cursos\\ASP.NET Razor Pages - Balta\\RazorApp\\wwwroot\\",
+      "ContentRoot": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\wwwroot\\",
       "BasePath": "_content/RazorApp",
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\RazorApp.styles.css",
+      "SourceId": "RazorApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/RazorApp",
+      "RelativePath": "RazorApp.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\RazorApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RazorApp.bundle.scp.css",
+      "SourceId": "RazorApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/RazorApp",
+      "RelativePath": "RazorApp.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RazorApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\wwwroot\\css\\site.css",
+      "SourceId": "RazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\wwwroot\\",
+      "BasePath": "_content/RazorApp",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\wwwroot\\js\\site.js",
+      "SourceId": "RazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Repositorios\\estudos-sobre-asp.net\\ASP.NET Razor Pages - Balta\\RazorApp\\wwwroot\\",
+      "BasePath": "_content/RazorApp",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
 }

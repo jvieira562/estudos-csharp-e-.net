@@ -9,33 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RazorApp
 build_property.RootNamespace = RazorApp
-build_property.ProjectDir = C:\dev\Cursos\ASP.NET Razor Pages - Balta\RazorApp\
+build_property.ProjectDir = C:\Repositorios\estudos-sobre-asp.net\ASP.NET Razor Pages - Balta\RazorApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\dev\Cursos\ASP.NET Razor Pages - Balta\RazorApp
+build_property.MSBuildProjectDirectory = C:\Repositorios\estudos-sobre-asp.net\ASP.NET Razor Pages - Balta\RazorApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/dev/Cursos/ASP.NET Razor Pages - Balta/RazorApp/Pages/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+[C:/Repositorios/estudos-sobre-asp.net/ASP.NET Razor Pages - Balta/RazorApp/Pages/Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Cursos/ASP.NET Razor Pages - Balta/RazorApp/Pages/Index.cshtml]
+[C:/Repositorios/estudos-sobre-asp.net/ASP.NET Razor Pages - Balta/RazorApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Cursos/ASP.NET Razor Pages - Balta/RazorApp/Pages/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/dev/Cursos/ASP.NET Razor Pages - Balta/RazorApp/Pages/Shared/PartialView/NavMenuPartial.cshtml]
+[C:/Repositorios/estudos-sobre-asp.net/ASP.NET Razor Pages - Balta/RazorApp/Pages/Shared/PartialView/NavMenuPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBhcnRpYWxWaWV3XE5hdk1lbnVQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Cursos/ASP.NET Razor Pages - Balta/RazorApp/Pages/Shared/_Layout.cshtml]
+[C:/Repositorios/estudos-sobre-asp.net/ASP.NET Razor Pages - Balta/RazorApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Cursos/ASP.NET Razor Pages - Balta/RazorApp/Pages/_ViewImports.cshtml]
+[C:/Repositorios/estudos-sobre-asp.net/ASP.NET Razor Pages - Balta/RazorApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repositorios/estudos-sobre-asp.net/ASP.NET Razor Pages - Balta/RazorApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repositorios/estudos-sobre-asp.net/ASP.NET Razor Pages - Balta/RazorApp/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6t86mag39u
+
+[C:/Repositorios/estudos-sobre-asp.net/ASP.NET Razor Pages - Balta/RazorApp/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-la9mrmlw3o
